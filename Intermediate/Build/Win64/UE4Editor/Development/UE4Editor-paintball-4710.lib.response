@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-paintball-4710.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\ColorCapture.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintball.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintballCharacter.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintballGameMode.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintballHUD.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintballProjectile.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\ColorCapture.gen.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintball.init.gen.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintballCharacter.gen.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintballGameMode.gen.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintballHUD.gen.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\paintball\paintballProjectile.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\paintball\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\SIG\Documents\Swatch2017\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-paintball-4710.lib"

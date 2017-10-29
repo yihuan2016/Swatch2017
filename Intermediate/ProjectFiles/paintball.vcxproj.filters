@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\paintball.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{E9438FE2-C81C-430B-A000-68FBFAF7C48A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\paintball.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\paintballEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{AC1E3755-F1AA-4117-BE53-B7B0AFA40FF1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{F5AB7098-94A4-45D7-A693-0E3B4582E5F8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\AndroidCamera">
+			<UniqueIdentifier>{4CC9AF48-52CF-4FD6-8C65-D94839456AEB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\AndroidCamera\Source">
+			<UniqueIdentifier>{B8F9C9E5-036E-4944-AB14-A23CDB1139BF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\AndroidCamera\Source\AndroidCamera">
+			<UniqueIdentifier>{27336F93-DD45-4EFF-BC2A-8189D581D68F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\AndroidCamera\Source\AndroidCamera\AndroidCamera.Build.cs">
+			<Filter>Plugins\AndroidCamera\Source\AndroidCamera</Filter>
+		</None >
+		<None Include="..\..\Plugins\AndroidCamera\Source\AndroidCamera\AndroidCamera_APL.xml">
+			<Filter>Plugins\AndroidCamera\Source\AndroidCamera</Filter>
+		</None >
+		<Filter Include="Plugins\AndroidCamera\Source\AndroidCamera\Private">
+			<UniqueIdentifier>{8FA7848F-AA3B-45B7-90AF-289AD7613AC3}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\AndroidCamera\Source\AndroidCamera\Private\AndroidCamera.cpp">
+			<Filter>Plugins\AndroidCamera\Source\AndroidCamera\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AndroidCamera\Source\AndroidCamera\Private\AndroidCameraBPLibrary.cpp">
+			<Filter>Plugins\AndroidCamera\Source\AndroidCamera\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AndroidCamera\Source\AndroidCamera\Private\AndroidCameraComponent.cpp">
+			<Filter>Plugins\AndroidCamera\Source\AndroidCamera\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\AndroidCamera\Source\AndroidCamera\Private\AndroidCameraPrivatePCH.h">
+			<Filter>Plugins\AndroidCamera\Source\AndroidCamera\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\AndroidCamera\Source\AndroidCamera\Public">
+			<UniqueIdentifier>{826E3E00-A9C2-4A9C-9FC3-DF5DE3C76FBF}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\AndroidCamera\Source\AndroidCamera\Public\AndroidCamera.h">
+			<Filter>Plugins\AndroidCamera\Source\AndroidCamera\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AndroidCamera\Source\AndroidCamera\Public\AndroidCameraBPLibrary.h">
+			<Filter>Plugins\AndroidCamera\Source\AndroidCamera\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AndroidCamera\Source\AndroidCamera\Public\AndroidCameraComponent.h">
+			<Filter>Plugins\AndroidCamera\Source\AndroidCamera\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\AndroidCamera\AndroidCamera.uplugin">
+			<Filter>Plugins\AndroidCamera</Filter>
+		</None >
+		<Filter Include="Plugins\AndroidCamera\Resources">
+			<UniqueIdentifier>{63E6320D-82B2-4F45-9FD9-C94E28708A75}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\AndroidCamera\Resources\Icon128.png">
+			<Filter>Plugins\AndroidCamera\Resources</Filter>
+		</None >
+		<Filter Include="Source\paintball">
+			<UniqueIdentifier>{AAE2646C-7179-49EC-A8A1-BCE0439030AF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\paintball\ColorCapture.cpp">
+			<Filter>Source\paintball</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\paintball\ColorCapture.h">
+			<Filter>Source\paintball</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\paintball\paintball.Build.cs">
+			<Filter>Source\paintball</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\paintball\paintball.cpp">
+			<Filter>Source\paintball</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\paintball\paintball.h">
+			<Filter>Source\paintball</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\paintball\paintballCharacter.cpp">
+			<Filter>Source\paintball</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\paintball\paintballCharacter.h">
+			<Filter>Source\paintball</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\paintball\paintballGameMode.cpp">
+			<Filter>Source\paintball</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\paintball\paintballGameMode.h">
+			<Filter>Source\paintball</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\paintball\paintballHUD.cpp">
+			<Filter>Source\paintball</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\paintball\paintballHUD.h">
+			<Filter>Source\paintball</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\paintball\paintballProjectile.cpp">
+			<Filter>Source\paintball</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\paintball\paintballProjectile.h">
+			<Filter>Source\paintball</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
