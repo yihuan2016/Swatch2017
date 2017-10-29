@@ -1,0 +1,4 @@
+C:\Users\SIG\Documents\Swatch2017\Source\paintball\paintball.Build.cs
+C:\Users\SIG\Documents\Swatch2017\Plugins\AndroidCamera\Source\AndroidCamera\AndroidCamera.Build.cs
+C:\Users\SIG\Documents\Swatch2017\Source\paintball.Target.cs
+C:\Users\SIG\Documents\Swatch2017\Source\paintballEditor.Target.cs

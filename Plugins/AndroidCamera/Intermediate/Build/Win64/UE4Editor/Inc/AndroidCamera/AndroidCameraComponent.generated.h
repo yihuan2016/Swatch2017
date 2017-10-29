@@ -14,7 +14,7 @@ class UTexture2D;
 #endif
 #define ANDROIDCAMERA_AndroidCameraComponent_generated_h
 
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_RPC_WRAPPERS \
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execshutDownCamera) \
 	{ \
@@ -42,7 +42,7 @@ class UTexture2D;
 	}
 
 
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execshutDownCamera) \
 	{ \
@@ -70,7 +70,7 @@ class UTexture2D;
 	}
 
 
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_INCLASS_NO_PURE_DECLS \
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAndroidCameraComponent(); \
 	friend ANDROIDCAMERA_API class UClass* Z_Construct_UClass_UAndroidCameraComponent(); \
@@ -80,7 +80,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_INCLASS \
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_INCLASS \
 private: \
 	static void StaticRegisterNativesUAndroidCameraComponent(); \
 	friend ANDROIDCAMERA_API class UClass* Z_Construct_UClass_UAndroidCameraComponent(); \
@@ -90,7 +90,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_STANDARD_CONSTRUCTORS \
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAndroidCameraComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAndroidCameraComponent) \
@@ -103,7 +103,7 @@ private: \
 public:
 
 
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_ENHANCED_CONSTRUCTORS \
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAndroidCameraComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -116,32 +116,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAndroidCameraComponent); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAndroidCameraComponent)
 
 
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_PRIVATE_PROPERTY_OFFSET
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_5_PROLOG
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_GENERATED_BODY_LEGACY \
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_PRIVATE_PROPERTY_OFFSET
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_5_PROLOG
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_PRIVATE_PROPERTY_OFFSET \
-	paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_RPC_WRAPPERS \
-	paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_INCLASS \
-	paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_STANDARD_CONSTRUCTORS \
+	Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_PRIVATE_PROPERTY_OFFSET \
+	Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_RPC_WRAPPERS \
+	Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_INCLASS \
+	Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_GENERATED_BODY \
+#define Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_PRIVATE_PROPERTY_OFFSET \
-	paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_RPC_WRAPPERS_NO_PURE_DECLS \
-	paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_INCLASS_NO_PURE_DECLS \
-	paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_ENHANCED_CONSTRUCTORS \
+	Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_PRIVATE_PROPERTY_OFFSET \
+	Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_RPC_WRAPPERS_NO_PURE_DECLS \
+	Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_INCLASS_NO_PURE_DECLS \
+	Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h_8_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID paintball_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h
+#define CURRENT_FILE_ID Swatch2017_Plugins_AndroidCamera_Source_AndroidCamera_Public_AndroidCameraComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
