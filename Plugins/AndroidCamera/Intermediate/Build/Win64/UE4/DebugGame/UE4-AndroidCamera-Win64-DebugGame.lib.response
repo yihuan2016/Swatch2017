@@ -1,0 +1,8 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+"C:\Users\yihuan\Documents\Unreal Projects\paintball\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4\DebugGame\AndroidCamera\Module.AndroidCamera.cpp.obj"
+"C:\Users\yihuan\Documents\Unreal Projects\paintball\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4\DebugGame\AndroidCamera\Module.AndroidCamera.gen.cpp.obj"
+"C:\Users\yihuan\Documents\Unreal Projects\paintball\Intermediate\Build\Win64\UE4\DebugGame\AndroidCamera\PCLaunch.rc.res"
+/OUT:"C:\Users\yihuan\Documents\Unreal Projects\paintball\Plugins\AndroidCamera\Binaries\Win64\UE4-AndroidCamera-Win64-DebugGame.lib"
