@@ -1,0 +1,8 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+"D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4\Development\AndroidCamera\Module.AndroidCamera.cpp.obj"
+"D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4\Development\AndroidCamera\Module.AndroidCamera.gen.cpp.obj"
+"D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Intermediate\Build\Win64\UE4\Development\AndroidCamera\PCLaunch.rc.res"
+/OUT:"D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Binaries\Win64\UE4-AndroidCamera.lib"
