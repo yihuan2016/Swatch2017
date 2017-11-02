@@ -45,6 +45,12 @@ class ApaintballCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UMotionControllerComponent* L_MotionController;
 
+	UFUNCTION(BlueprintCallable, Category = "save")
+		static bool FileSaveString(FString SaveTextB, FString FileNameB);
+
+	UFUNCTION(BlueprintPure, Category = "save")
+		static bool FileLoadString(FString FileNameA, FString& SaveTextA);
+
 public:
 	ApaintballCharacter();
 

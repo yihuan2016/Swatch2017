@@ -24,11 +24,11 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source"
-/I D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Source\AndroidCamera\Private
-/I D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Source
-/I D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Source\AndroidCamera\Public
-/I D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4Editor\Inc\AndroidCamera
-/I D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Source\AndroidCamera
+/I C:\Users\SIG\Documents\Swatch2017\Plugins\AndroidCamera\Source\AndroidCamera\Private
+/I C:\Users\SIG\Documents\Swatch2017\Plugins\AndroidCamera\Source
+/I C:\Users\SIG\Documents\Swatch2017\Plugins\AndroidCamera\Source\AndroidCamera\Public
+/I C:\Users\SIG\Documents\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4Editor\Inc\AndroidCamera
+/I C:\Users\SIG\Documents\Swatch2017\Plugins\AndroidCamera\Source\AndroidCamera
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Async"
@@ -358,9 +358,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4Editor\Development\AndroidCamera\Module.AndroidCamera.cpp"
-/FI"D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4Editor\Development\AndroidCamera\Definitions.AndroidCamera.h"
-/Fo"D:\yihuan\Documents\study\cis568\PROJECT1\chloe\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4Editor\Development\AndroidCamera\Module.AndroidCamera.cpp.obj"
+"C:\Users\SIG\Documents\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4Editor\Development\AndroidCamera\Module.AndroidCamera.cpp"
+/FI"C:\Users\SIG\Documents\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4Editor\Development\AndroidCamera\Definitions.AndroidCamera.h"
+/Fo"C:\Users\SIG\Documents\Swatch2017\Plugins\AndroidCamera\Intermediate\Build\Win64\UE4Editor\Development\AndroidCamera\Module.AndroidCamera.cpp.obj"
 /TP
 /GR-
 /W4

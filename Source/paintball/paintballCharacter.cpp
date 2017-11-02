@@ -16,6 +16,7 @@ DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 //////////////////////////////////////////////////////////////////////////
 // ApaintballCharacter
 
+
 ApaintballCharacter::ApaintballCharacter()
 {
 	// Set size for collision capsule
@@ -294,4 +295,15 @@ bool ApaintballCharacter::EnableTouchscreenMovement(class UInputComponent* Playe
 		//PlayerInputComponent->BindTouch(EInputEvent::IE_Repeat, this, &ApaintballCharacter::TouchUpdate);
 	}
 	return bResult;
+}
+
+
+bool ApaintballCharacter::FileSaveString(FString SaveTextB, FString FileNameB)
+{
+	return FFileHelper::SaveStringToFile(SaveTextB, *(FPaths::GameDir() + FileNameB));
+}
+
+bool ApaintballCharacter::FileLoadString(FString FileNameA, FString& SaveTextA)
+{
+	return FFileHelper::LoadFileToString(SaveTextA, *(FPaths::GameDir() + FileNameA));
 }
