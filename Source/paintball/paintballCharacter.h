@@ -71,7 +71,7 @@ public:
 	FVector GunOffset;
 
 	/** Projectile class to spawn */
-	UPROPERTY(EditDefaultsOnly, Category=Projectile)
+	UPROPERTY(EditAnywhere, Category=Projectile)
 	TSubclassOf<class ApaintballProjectile> ProjectileClass;
 
 	/** Sound to play each time we fire */
