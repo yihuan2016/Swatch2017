@@ -41,3 +41,38 @@ void ApaintballProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActo
 		Destroy();
 	}
 }
+TArray<int> ApaintballProjectile::setArray(TArray<int> IntArray, float size, int index)
+{
+	
+	IntArray[index] = 1;
+	if (size > 1) {
+		
+		IntArray[index - 1] = 1;
+		IntArray[index + 1] = 1;
+		if(index+32<1024){ 
+			IntArray[index + 32] = 1; 
+		}
+		if(index-32>=0){
+			IntArray[index - 32] = 1; }
+	}
+	if (size > 2) {
+		if (index + 31<1024) {
+			IntArray[index + 31] = 1; }
+		if (index + 33 <1024) {
+			IntArray[index + 33] = 1; }
+		if (index - 31>=0) {
+			IntArray[index - 31] = 1; }
+		if (index - 33 >= 0) {
+			IntArray[index - 33] = 1; }
+	}
+	return IntArray;
+}
+float ApaintballProjectile::setProgress(TArray<int> IntArray) {
+	float progress = 0.0f;
+	for (int i = 0; i < 1024; i++) {
+		if (IntArray[i] == 1) {
+			progress += 0.14f;
+		}
+	}
+	return progress;
+}

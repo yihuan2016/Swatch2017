@@ -258,6 +258,7 @@ void ApaintballCharacter::MoveForward(float Value)
 	{
 		// add movement in that direction
 		AddMovementInput(GetActorForwardVector(), Value);
+
 	}
 }
 
